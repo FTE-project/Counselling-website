@@ -1,0 +1,51 @@
+$background:#00DF75;
+$sub-sec-col-1: rgba(47, 72, 88, 0.6);
+$bg-color:#2F4858;
+$ter-col:#fff;
+$pry-col:#000000;
+
+@mixin h1font {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48.83px;
+// line-height: 60px;
+}
+@mixin h2font {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+    // line-height: 48px;  
+}
+
+
+@mixin h3font {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 31.25px;
+// line-height: 38px;
+}
+@mixin h4font {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+// line-height: 30px;
+}
+@mixin pfont {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px !important;
+line-height: 30px;
+
+}
+@mixin h5font {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+// line-height: 30px;
+}

@@ -1,0 +1,41 @@
+@use "global.scss" as *;
+//USER SIGNUP STYLES
+.section{
+    background-color: $background;
+   
+}
+.form-bg{
+    background-color: $sub-sec-col-1;
+}
+.form-header {
+    @include h5font;
+    color: $ter-col;
+}
+
+label{
+    color: $ter-col !important;
+    @include pfont;
+}
+//Usersignin
+p{
+    color: $ter-col;
+    @include pfont;
+}
+a{
+    text-decoration: none;
+    @include pfont;
+}
+.forgot{
+color: $ter-col;
+}
+//cards
+//services cards
+.card-bg{
+    background-color: $sub-sec-col-1 !important;
+    color: $ter-col !important;
+}
+//services sessions
+.card-con{
+    background-color: $sub-sec-col-1;
+    color: $ter-col !important;
+}
