@@ -1,0 +1,56 @@
+{
+    "companygoals": [
+           {
+               "title": "Our Mission",    
+              "text": "At MindAfrik,our goal is to empower everyday people to tell their story, understand themselves, and make a difference in their lives. "	
+           },
+           {
+               "title": "Our Vision",    
+              "text": "We make it easy to connect with counsellors from the comfort of your home, our sessions are affordable convenient and private."	
+           },
+           {
+               "title": "Our Ethics",    
+              "text": "Strong counselling skill sets with passion for personal growth,high accountability and work ethics."	
+           }
+           
+       ],
+   "solutions" :[
+           {
+               "title1": "Appointment",    
+              "text1": "Avail an online counsellor to become happier, better and seeking help is a sign of courage."	
+           },
+           {
+               "title1": "Identification",    
+              "text1": "When you signup, seek and pay, the counsellor is connected with you and the problem is been identified"	
+           },
+           {
+               "title1": "Solution",    
+              "text1": "The issue is been talked upon and the necessary solution is being proffered"	
+           }
+           
+       ],
+       "sessions" :[
+           {
+               "imgs":"../images/familysession 2.png",
+               "title1": "Family Session",    
+              "text1": "Avail an online counsellor to become happier, better and seeking help is a sign of courage."	
+           },
+           {
+               "imgs":"../images/couplesession 1.png",
+               "title1": "Couple Session",    
+              "text1": "When you signup, seek and pay, the counsellor is connected with you and the problem is been identified"	
+           },
+           {
+               "imgs":"../images/indivisession 1.png",
+               "title1": "Individual Session",    
+              "text1": "The issue is been talked upon and the necessary solution is being proffered"	
+           }
+           
+       ]
+   
+   }
+   
+   
+   
+   
+   

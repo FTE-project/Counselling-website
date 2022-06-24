@@ -56,3 +56,70 @@ color: $ter-col;
     font-family: sans-serif;
     font-size: 300px;
 }
+=======
+//HERO IMAGE
+.bgimage {
+    width:100%;
+    height:700px;
+    background: url('../images/home.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    // background-attachment: fixed;
+  }
+  .bgimage h1 {
+    color:$background;
+    @include h1font
+    // text-shadow:2px 2px #333;
+  }
+  .bgimage h2 {
+    color: $background;
+    @include h2font;
+  }
+  .sec-2 h3{
+    color: $ter-col;
+    @include h3font;
+
+  }
+  .sec-3 p {
+    @include pfont;
+  }
+
+  .mid{
+    // border: solid red;
+    position: absolute !important;
+    top: 45%;
+    
+  }
+  //HOMEPAGE
+  .bg{
+    background-image: url(../images/Rectangle\ 63.png);
+  }
+  .bt-text h3{
+    color: $ter-col !important;
+    @include h3font;
+  }
+  .sec-4 h4{
+    color: $ter-col !important;
+    @include h4font;
+  }
+  //HERO QUERIES
+  @media(max-width:650px){
+    .bgimage {
+        width:100%;
+        height:500px;
+        background: url('../images/home.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        // background-attachment: fixed;
+      }
+      .mid{
+        // border: solid red;
+        padding: 15px;
+        position: absolute !important;
+        top: 0%;
+        
+      }
+
+  
