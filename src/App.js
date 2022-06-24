@@ -5,14 +5,14 @@ import {UserSignUp, ContactForm, UserSignIn, ResetPassword, QuestionForm, Regist
 function App() {
   return (
     <div className="App">
-   
-   {/* <CardMultiply/>
+{/*    
+   <CardMultiply/>
       <SingleCardBase/>
-      <ServiceCard/> */}
+      <ServiceCard/>
       <UserSignUp/>
       <ContactForm/>
       <UserSignIn/>
-      <ResetPassword/>
+      <ResetPassword/> */}
     </div>
   );
 }
