@@ -39,6 +39,24 @@ color: $ter-col;
     background-color: $sub-sec-col-1;
     color: $ter-col !important;
 }
+// .navling {
+//     background-color: #00DF75;
+//     @include pfonts;
+//     color: $pry-col;
+
+//     justify-content: space-evenly;
+// }
+
+#navdrop {
+    background-color: $background;
+    @include h2fonts;
+}
+
+.dpdown {
+    font-family: sans-serif;
+    font-size: 300px;
+}
+=======
 //HERO IMAGE
 .bgimage {
     width:100%;
@@ -104,4 +122,4 @@ color: $ter-col;
         
       }
 
-  }
+  
