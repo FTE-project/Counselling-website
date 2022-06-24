@@ -1,19 +1,37 @@
 // import './Components/sass/nav.scss'
-// import teamLogo from "../Components/images/new4.png"
+import ham from "../image/ham.png"
+import teamLogo from "../image/new4.png"
+
+//   = {
+//     show: false
+//   }
+
+
+//   onClick = () => {
+//     const { show } = this.state
+//     this.setState({show: !show})
+//   }
+
+//   onRequestClose = () => {
+//     this.onClick()
+//   }
+
 export const NavbarSection = () => {
     return (
-        <header className="navbar navbar-expand-sm navling ">
+        <header className="navbar navbar-expand-sm section">
 
             <div className="container">
 
                 <a href="#" className="navbar-brand">
-             {/* <img src={teamLogo}></img> */}
+             <img src={teamLogo}></img>
                 </a>
          
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="toggle-navigation">
-                <span class="navbar-toggler-icon ms-auto"></span>
+                    <span>
+                         <img src={ham} alt=""></img>
+                </span>
                 </button>
             
                 <div className="small ms-auto">
