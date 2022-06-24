@@ -10,8 +10,9 @@ import HomePage from "./Pages/HomePage";
 function App() {
   return (
     <div className="App">
+      <HomePage/>
 
-      <ServiceCard/> */}
+      {/* <ServiceCard/> */}
       {/* <UserSignUp/>
       <ContactForm/>
       <UserSignIn/>

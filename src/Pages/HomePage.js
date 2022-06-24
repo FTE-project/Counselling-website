@@ -2,10 +2,12 @@ import { HomeHero } from "../Components/Hero";
 // import carimg from "..../";
 import carImg from "../images/top vector.png";
 import carImg1 from "../images/lower vector.png";
+import  {NavbarSection} from "../Components/Navbar";
 
 const HomePage = () => {
     return (  
         <section className="section">
+             <NavbarSection/>
             <HomeHero/>
             <div className="sec-2">
                 <h3 className="text-center">MINDAFRIK</h3>
@@ -32,7 +34,7 @@ them to work for us in ways we may have never imagined.</p>
                     <h4>Mental Health</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
                 </div>
-                <div className="col-md-4 d-none d-md-block d-sm-none"><img src={carImg} /></div>
+                <div className="col-md-4 d-none d-md-block d-sm-none"><img src={carImg} alt="" /></div>
                 <div className="col-md-4 col-sm-12"> <h4>Career</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p></div> 
             </div>
@@ -41,7 +43,7 @@ them to work for us in ways we may have never imagined.</p>
                     <h4>Relationship</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p>
                 </div>
-                <div className="col-md-4 d-none d-md-block d-sm-none"><img src={carImg1} /></div>
+                <div className="col-md-4 d-none d-md-block d-sm-none"><img src={carImg1} alt="" /></div>
                 <div className="col-md-4 col-sm-12"> <h4>Marriage</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</p></div> 
             </div>
